@@ -1,0 +1,229 @@
+{
+  "produtos": [
+    
+  {
+    "id": 1,
+    "nome": "Iogurte Natural 170g",
+    "Descricao": "Iogurte integral natural, marca Danvita, com validade próxima.",
+    "PrecoOriginal": 4.5,
+    "PrecoComDesconto": 2.99,
+    "DataValidade": "10/10/2025",
+    "Quantidade": 25,
+    "categoria": "Mercado",
+    "imagem": "mercado.png"
+    
+  },
+  {
+    "id": 2,
+    "nome": "Pão de Queijo",
+    "imagem": "padaria.png",
+    "categoria": "Padaria",
+    "Descricao": "Pão de queijo artesanal, crocante por fora e macio por dentro. Ideal para o café da manhã.",
+    "PrecoOriginal": 15.99,
+    "PrecoComDesconto": 13.99,
+    "DataValidade": "02/11/2025",
+    "Quantidade": 25
+  },
+  {
+    "id": 3,
+    "nome": "Leite Integral",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Leite integral pasteurizado, embalado em embalagem longa vida.",
+    "PrecoOriginal": 4.50,
+    "PrecoComDesconto": 3.99,
+    "DataValidade": "05/11/2025",
+    "Quantidade": 40
+  },
+  {
+    "id": 4,
+    "nome": "Arroz Branco",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Arroz branco tipo 1, grãos soltos e cozimento uniforme.",
+    "PrecoOriginal": 5.80,
+    "PrecoComDesconto": 5.20,
+    "DataValidade": "01/10/2027",
+    "Quantidade": 100
+  },
+  {
+    "id": 5,
+    "nome": "Feijão Preto",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Feijão preto selecionado, grãos limpos e consistentes.",
+    "PrecoOriginal": 7.20,
+    "PrecoComDesconto": 6.49,
+    "DataValidade": "01/08/2027",
+    "Quantidade": 80
+  },
+  {
+    "id": 6,
+    "nome": "Açúcar Refinado",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Açúcar refinado para uso diário em bebidas e receitas.",
+    "PrecoOriginal": 3.50,
+    "PrecoComDesconto": 3.10,
+    "DataValidade": "15/09/2027",
+    "Quantidade": 60
+  },
+  {
+    "id": 7,
+    "nome": "Óleo de Soja",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Óleo de soja refinado, indicado para frituras e preparos em geral.",
+    "PrecoOriginal": 6.99,
+    "PrecoComDesconto": 5.99,
+    "DataValidade": "01/12/2027",
+    "Quantidade": 50
+  },
+  {
+    "id": 8,
+    "nome": "Macarrão Espaguete",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Macarrão espaguete tradicional, massa seca de boa qualidade.",
+    "PrecoOriginal": 3.10,
+    "PrecoComDesconto": 2.79,
+    "DataValidade": "01/11/2027",
+    "Quantidade": 120
+  },
+  {
+    "id": 9,
+    "nome": "Ovos Brancos (Dúzia)",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Dúzia de ovos brancos frescos, acondicionados refrigerados.",
+    "PrecoOriginal": 10.00,
+    "PrecoComDesconto": 8.99,
+    "DataValidade": "04/11/2025",
+    "Quantidade": 30
+  },
+  {
+    "id": 10,
+    "nome": "Detergente para Louças",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Detergente líquido concentrado, remove gordura fácil e rende bem.",
+    "PrecoOriginal": 2.80,
+    "PrecoComDesconto": 2.39,
+    "DataValidade": "01/01/2027",
+    "Quantidade": 70
+  },
+  {
+    "id": 11,
+    "nome": "Sabonete em Barra",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Sabonete hidratante em barra, fragrância suave.",
+    "PrecoOriginal": 1.99,
+    "PrecoComDesconto": 1.59,
+    "DataValidade": "01/03/2027",
+    "Quantidade": 150
+  },
+  {
+    "id": 12,
+    "nome": "Papel Higiênico (Rolo)",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Rolo de papel higiênico de uso diário, qualidade padrão.",
+    "PrecoOriginal": 1.50,
+    "PrecoComDesconto": 1.29,
+    "DataValidade": "07/11/2025",
+    "Quantidade": 200
+  },
+  {
+    "id": 13,
+    "nome": "Peito de Frango",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Peito de frango fresco, sem osso e sem pele, embalado refrigerado.",
+    "PrecoOriginal": 22.90,
+    "PrecoComDesconto": 19.99,
+    "DataValidade": "10/11/2025",
+    "Quantidade": 20
+  },
+  {
+    "id": 14,
+    "nome": "Tomate",
+    "imagem": "hortifruti.png",
+    "categoria": "Hortifrúti",
+    "Descricao": "Tomate fresco, suculento, ideal para saladas e molhos.",
+    "PrecoOriginal": 8.90,
+    "PrecoComDesconto": 6.99,
+    "DataValidade": "09/11/2025",
+    "Quantidade": 45
+  },
+  {
+    "id": 15,
+    "nome": "Banana",
+    "imagem": "hortifruti.png",
+    "categoria": "Hortifrúti",
+    "Descricao": "Banana nanica madura, perfumada e pronta para consumo.",
+    "PrecoOriginal": 4.99,
+    "PrecoComDesconto": 3.99,
+    "DataValidade": "05/11/2025",
+    "Quantidade": 60
+  },
+  {
+    "id": 16,
+    "nome": "Manteiga",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Manteiga cremosa, ótima para passar e cozinhar.",
+    "PrecoOriginal": 9.50,
+    "PrecoComDesconto": 8.49,
+    "DataValidade": "15/11/2025",
+    "Quantidade": 35
+  },
+  {
+    "id": 17,
+    "nome": "Pão de Forma",
+    "imagem": "padaria.png",
+    "categoria": "Padaria",
+    "Descricao": "Pão de forma fatiado, macio, ideal para sanduíches.",
+    "PrecoOriginal": 7.99,
+    "PrecoComDesconto": 6.49,
+    "DataValidade": "08/11/2025",
+    "Quantidade": 40
+  },
+  {
+    "id": 18,
+    "nome": "Refrigerante Cola",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Refrigerante sabor cola em garrafa PET, refrescante.",
+    "PrecoOriginal": 5.00,
+    "PrecoComDesconto": 4.49,
+    "DataValidade": "01/11/2025",
+    "Quantidade": 90
+  },
+  {
+    "id": 19,
+    "nome": "Cerveja Lager",
+    "imagem": "mercado.png",
+    "categoria": "Mercado",
+    "Descricao": "Cerveja lager leve e gelada, ideal para encontros.",
+    "PrecoOriginal": 4.20,
+    "PrecoComDesconto": 3.79,
+    "DataValidade": "16/11/2025",
+    "Quantidade": 120
+  },
+  {
+    "id": 20,
+    "nome": "Batata Inglesa",
+    "imagem": "hortifruti.png",
+    "categoria": "Hortifrúti",
+    "Descricao": "Batata inglesa firme, indicada para fritar, assar e cozidos.",
+    "PrecoOriginal": 6.50,
+    "PrecoComDesconto": 5.49,
+    "DataValidade": "06/11/2025",
+    "Quantidade": 80
+  }
+]
+
+  ,
+  "favoritos": [] 
+}
