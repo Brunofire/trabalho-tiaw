@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Iogurte Natural 170g",
       "Descricao": "Iogurte integral natural, marca Danvita, com validade próxima.",
       "PrecoOriginal": 4.5,
@@ -13,7 +13,7 @@
       "loja": "Carrefour"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Pão de Queijo",
       "imagem": "padaria.png",
       "categoria": "Padaria",
@@ -25,7 +25,7 @@
       "loja": "EPA"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Leite Integral",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -37,7 +37,7 @@
       "loja": "Supermercados BH"
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Arroz Branco",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -49,7 +49,7 @@
       "loja": "Assaí"
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Feijão Preto",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -61,7 +61,7 @@
       "loja": "Carrefour"
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Açúcar Refinado",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -73,7 +73,7 @@
       "loja": "Dia"
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Óleo de Soja",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -85,7 +85,7 @@
       "loja": "EPA"
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "Macarrão Espaguete",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -97,19 +97,19 @@
       "loja": "Assaí"
     },
     {
-      "id": 9,
+      "id": "9",
       "nome": "Ovos Brancos (Dúzia)",
       "imagem": "mercado.png",
       "categoria": "Mercado",
       "Descricao": "Dúzia de ovos brancos frescos, acondicionados refrigerados.",
-      "PrecoOriginal": 10.0,
+      "PrecoOriginal": 10,
       "PrecoComDesconto": 8.99,
       "DataValidade": "04/11/2025",
       "Quantidade": 30,
       "loja": "Supermercados BH"
     },
     {
-      "id": 10,
+      "id": "10",
       "nome": "Detergente para Louças",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -121,7 +121,7 @@
       "loja": "Dia"
     },
     {
-      "id": 11,
+      "id": "11",
       "nome": "Sabonete em Barra",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -133,7 +133,7 @@
       "loja": "Carrefour"
     },
     {
-      "id": 12,
+      "id": "12",
       "nome": "Papel Higiênico (Rolo)",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -145,7 +145,7 @@
       "loja": "Extra"
     },
     {
-      "id": 13,
+      "id": "13",
       "nome": "Peito de Frango",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -157,7 +157,7 @@
       "loja": "EPA"
     },
     {
-      "id": 14,
+      "id": "14",
       "nome": "Tomate",
       "imagem": "hortifruti.png",
       "categoria": "Hortifrúti",
@@ -169,7 +169,7 @@
       "loja": "Supermercados BH"
     },
     {
-      "id": 15,
+      "id": "15",
       "nome": "Banana",
       "imagem": "hortifruti.png",
       "categoria": "Hortifrúti",
@@ -181,7 +181,7 @@
       "loja": "Assaí"
     },
     {
-      "id": 16,
+      "id": "16",
       "nome": "Manteiga",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -193,7 +193,7 @@
       "loja": "Extra"
     },
     {
-      "id": 17,
+      "id": "17",
       "nome": "Pão de Forma",
       "imagem": "padaria.png",
       "categoria": "Padaria",
@@ -205,19 +205,19 @@
       "loja": "Carrefour"
     },
     {
-      "id": 18,
+      "id": "18",
       "nome": "Refrigerante Cola",
       "imagem": "mercado.png",
       "categoria": "Mercado",
       "Descricao": "Refrigerante sabor cola em garrafa PET, refrescante.",
-      "PrecoOriginal": 5.0,
+      "PrecoOriginal": 5,
       "PrecoComDesconto": 4.49,
       "DataValidade": "01/11/2025",
       "Quantidade": 90,
       "loja": "EPA"
     },
     {
-      "id": 19,
+      "id": "19",
       "nome": "Cerveja Lager",
       "imagem": "mercado.png",
       "categoria": "Mercado",
@@ -229,7 +229,7 @@
       "loja": "Dia"
     },
     {
-      "id": 20,
+      "id": "20",
       "nome": "Batata Inglesa",
       "imagem": "hortifruti.png",
       "categoria": "Hortifrúti",
@@ -241,32 +241,119 @@
       "loja": "Supermercados BH"
     }
   ],
-
   "favoritos": [],
-
   "votos": [
-    { "pessoaId": 1, "produtoId": 1 },
-    { "pessoaId": 2, "produtoId": 1 },
-    { "pessoaId": 3, "produtoId": 1 },
-    { "pessoaId": 4, "produtoId": 1 },
-    { "pessoaId": 5, "produtoId": 2 },
-    { "pessoaId": 6, "produtoId": 2 },
-    { "pessoaId": 7, "produtoId": 2 },
-    { "pessoaId": 8, "produtoId": 3 },
-    { "pessoaId": 9, "produtoId": 3 },
-    { "pessoaId": 10, "produtoId": 4 }
+    {
+      "pessoaId": 2,
+      "produtoId": 1,
+      "id": "a3da"
+    },
+    {
+      "pessoaId": 3,
+      "produtoId": 1,
+      "id": "19a7"
+    },
+    {
+      "pessoaId": 4,
+      "produtoId": 1,
+      "id": "1d2f"
+    },
+    {
+      "pessoaId": 5,
+      "produtoId": 2,
+      "id": "e223"
+    },
+    {
+      "pessoaId": 6,
+      "produtoId": 2,
+      "id": "d365"
+    },
+    {
+      "pessoaId": 7,
+      "produtoId": 2,
+      "id": "670b"
+    },
+    {
+      "pessoaId": 8,
+      "produtoId": 3,
+      "id": "b353"
+    },
+    {
+      "pessoaId": 9,
+      "produtoId": 3,
+      "id": "7bdd"
+    },
+    {
+      "pessoaId": 10,
+      "produtoId": 4,
+      "id": "f0bc"
+    },
+    {
+      "id": "9de7",
+      "pessoaId": 1,
+      "produtoId": 6
+    },
+    {
+      "id": "e4cb",
+      "pessoaId": 1,
+      "produtoId": 12
+    },
+    {
+      "id": "9485",
+      "pessoaId": 1,
+      "produtoId": 4
+    },
+    {
+      "id": "9525",
+      "pessoaId": 1,
+      "produtoId": 3
+    },
+    {
+      "id": "24e6",
+      "pessoaId": 1,
+      "produtoId": 2
+    }
   ],
-
   "pessoas": [
-    { "id": 1, "nome": "Usuário Fictício 1" },
-    { "id": 2, "nome": "Usuário Fictício 2" },
-    { "id": 3, "nome": "Usuário Fictício 3" },
-    { "id": 4, "nome": "Usuário Fictício 4" },
-    { "id": 5, "nome": "Usuário Fictício 5" },
-    { "id": 6, "nome": "Usuário Fictício 6" },
-    { "id": 7, "nome": "Usuário Fictício 7" },
-    { "id": 8, "nome": "Usuário Fictício 8" },
-    { "id": 9, "nome": "Usuário Fictício 9" },
-    { "id": 10, "nome": "Usuário Fictício 10" }
+    {
+      "id": "1",
+      "nome": "Usuário Fictício 1"
+    },
+    {
+      "id": "2",
+      "nome": "Usuário Fictício 2"
+    },
+    {
+      "id": "3",
+      "nome": "Usuário Fictício 3"
+    },
+    {
+      "id": "4",
+      "nome": "Usuário Fictício 4"
+    },
+    {
+      "id": "5",
+      "nome": "Usuário Fictício 5"
+    },
+    {
+      "id": "6",
+      "nome": "Usuário Fictício 6"
+    },
+    {
+      "id": "7",
+      "nome": "Usuário Fictício 7"
+    },
+    {
+      "id": "8",
+      "nome": "Usuário Fictício 8"
+    },
+    {
+      "id": "9",
+      "nome": "Usuário Fictício 9"
+    },
+    {
+      "id": "10",
+      "nome": "Usuário Fictício 10"
+    }
   ]
 }
