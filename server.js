@@ -1,29 +1,62 @@
-const express = require('express');
-const path = require('path');
-const jsonServer = require('json-server');
+import express from "express";
+import cors from "cors";
+import { readFile } from "fs/promises";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+app.use(cors());
 
-// 1. Configura a pasta 'public' para servir arquivos estáticos (HTML, CSS, JS)
-app.use(express.static(path.join(__dirname, 'public')));
+const PORT = 3000;
 
-// 2. Configura o JSON Server (API)
-// O JSON Server lê o db.json que está dentro da pasta 'db'
-const router = jsonServer.router(path.join(__dirname, 'db', 'db.json'));
-const middlewares = jsonServer.defaults();
+// Função para ler db.json
+async function carregarDB() {
+  const data = await readFile("./db/db.json", "utf8");
+  return JSON.parse(data);
+}
 
-// O JSON Server será acessível através do prefixo /api
-// Ex: http://localhost:3000/api/produtos
-app.use('/api', middlewares, router );
+/* ====================  PRODUTOS + VOTOS  ==================== */
 
-// 3. Força a abertura do homepage.html na raiz '/'
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'homepage.html'));
+app.get("/api/produtos", async (req, res) => {
+  try {
+    const db = await carregarDB();
+
+    const produtos = db.produtos;
+    const votos = db.votos;
+
+    // Conta votos por produtoId
+    const mapaVotos = votos.reduce((acc, v) => {
+      acc[v.produtoId] = (acc[v.produtoId] || 0) + 1;
+      return acc;
+    }, {});
+
+    // Acrescenta o total de votos em cada produto
+    const produtosComVotos = produtos.map((p) => ({
+      ...p,
+      votos: mapaVotos[p.id] || 0,
+    }));
+
+    res.json(produtosComVotos);
+
+  } catch (error) {
+    console.error("Erro ao carregar produtos:", error);
+    res.status(500).json({ error: "Erro interno ao carregar produtos" });
+  }
 });
 
-// Inicia o servidor
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}. Acesse a aba Webview.`);
-  console.log(`API JSON Server disponível em http://localhost:${PORT}/api` );
+/* ====================  FAVORITOS  ==================== */
+
+app.get("/api/favoritos", async (req, res) => {
+  try {
+    const db = await carregarDB();
+    res.json(db.favoritos);
+  } catch (err) {
+    res.status(500).json({ error: "Erro ao buscar favoritos" });
+  }
 });
+
+app.post("/api/favoritos", express.json(), async (req, res) => {
+  res.json({ status: "ok (mock para JSON server real)" });
+});
+
+/* ==========================  INICIAR SERVER ========================== */
+
+app.listen(PORT, () => console.log(`Servidor rodando em http://localhost:${PORT}`));
